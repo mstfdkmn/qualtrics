@@ -26,7 +26,7 @@ def test_downloadSurvey():
 
 def test_getSurveyQuestions():
     q = Qualtrics('TOKEN')
-    assert len(q.getSurveyQuestions('csv', 'yourPath.csv')) == 2, "For now there are only two questions"
+    assert len(q.getSurveyQuestions('csv', 'your survey id')) == 2, "For now there are only two questions"
 
 
 if __name__ == '__main__':
