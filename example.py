@@ -4,7 +4,7 @@ from qualtrics.qualtrics import Qualtrics
 if __name__== "__main__":
 
     #Instantiate an object of Qualtrics
-    q1 = Qualtrics('wLTE7XV43hXuZV4lPQsEJlPvNoykiQ7dBGkoHVTw')
+    q1 = Qualtrics('YOR TOKEN')
     
     #Download a survey as csv file to the location that you specified
     #q1.downloadSurvey('your path', 'csv', 'your survey id')
